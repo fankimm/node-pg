@@ -10,9 +10,8 @@ const cl = (obj) => {
     })
   );
 };
-const domain = 'https://wms-api-beta.sta.kolonfnc.com';
-const token =
-  'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJqaWh3YW4ua2ltIiwiYXV0aCI6IlJPTEVfREVWIiwiZXhwIjoxNjgxOTAyMzk3fQ.k1Z_-YQ3HJhBJP4VDE_r-g5BVpG_-0eXb5_gITrpQDiIuOX2LFOX-qsL3_4FXOQ_Hk9nq8DqTDCp6eXVVKc2CA';
+const domain = '';
+const token = '';
 const headers = {
   'Content-type': 'application/json',
   Authorization: `Bearer ${token}`,
