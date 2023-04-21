@@ -16,6 +16,8 @@ module.exports = {
   },
   plugins: ['prettier'],
   rules: {
+    'operator-linebreak': 0,
+    'comma-dangle': 0,
     'no-console': 'off',
     'prettier/prettier': [
       'error',
